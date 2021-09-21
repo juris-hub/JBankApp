@@ -5,7 +5,6 @@
  */
 package oop.jbankapp;
 
-import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -271,9 +270,6 @@ public class MainMenu extends javax.swing.JFrame {
         model.setValueAt(String.format("%.2f",customer.getAccount().getBalance()), selectedRow, 3);
     }
     
-    private void reloadtable(){
-    
-    }
     
     private void setAccountButtonsActive(boolean active){
         depositButton.setEnabled(active);

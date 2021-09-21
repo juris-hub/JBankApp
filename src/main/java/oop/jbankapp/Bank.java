@@ -5,7 +5,6 @@
  */
 package oop.jbankapp;
 
-import java.io.Serializable;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;

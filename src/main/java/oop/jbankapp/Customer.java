@@ -24,15 +24,6 @@ public class Customer implements Serializable{
         this.account = account;
     }
     
-    @Override
-    public String toString(){
-        return "\nCustomer information\n" +
-                "First name: " + firstName +
-                "Last name: " + lastName +
-                "OIB: " + oib + 
-                account;
-        
-    }
     
     public String basicInfo(){
         return "Account Number : " + account.getAccountNumber() + " - " + firstName + lastName;
