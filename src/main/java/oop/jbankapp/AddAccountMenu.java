@@ -129,7 +129,7 @@ public class AddAccountMenu extends javax.swing.JDialog {
             lastName = lastNameField.getText();
         }
         
-        if(oibField.getText().length() != 11){
+        if(oibField.getText().length() != 11 || oibField.getText().matches("[a-zA-Z]+")){
             warnings.append("Invalid OIB.\n");
         }
         else{

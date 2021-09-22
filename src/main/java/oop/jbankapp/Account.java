@@ -16,7 +16,7 @@ public abstract class Account {
     private double balance = 0;
     private double interest = 0.02;
     private int accountNumber;
-    private static int numberOfAccount = 1000000;
+    private static int numberOfAccount = 1;
     private double transactionFee;
     
     Account(){

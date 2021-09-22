@@ -11,7 +11,7 @@ import java.io.Serializable;
  *
  * @author Zver
  */
-public class Customer implements Serializable{
+public class Customer   {
     private final String firstName;
     private final String lastName;
     private final String oib;
